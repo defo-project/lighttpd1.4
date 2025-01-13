@@ -108,6 +108,7 @@
 #define SSL_ECH_STATUS_SUCCESS 1
 #endif
 #else
+#define LIGHTTPD_OPENSSL_ECH_DEBUG /*(ECH developer debug trace)*/
 #include <openssl/ech.h>
 #endif
 #endif
