@@ -50,9 +50,9 @@ override_dh_auto_configure:
 		--with-xxhash \
 		--with-zstd \
 		$(if $(filter pkg.lighttpd.libunwind,$(DEB_BUILD_PROFILES)),--with-libunwind) \
-		CFLAGS_FOR_BUILD="$(shell dpkg-buildflags --get CFLAGS) -DLIGHTTPD_OPENSSL_ECH_DEBUG" \
+		CFLAGS_FOR_BUILD="$(shell dpkg-buildflags --get CFLAGS)" \
 		LDFLAGS_FOR_BUILD="$(shell dpkg-buildflags --get LDFLAGS)" \
-		CPPFLAGS_FOR_BUILD="$(shell dpkg-buildflags --get CPPFLAGS)" \
+		CPPFLAGS_FOR_BUILD="$(shell dpkg-buildflags --get CPPFLAGS) --DLIGHTTPD_OPENSSL_ECH_DEBUG" \
 
 override_dh_install:
 	cp NEWS debian/tmp/changelog
