@@ -1,3 +1,23 @@
+lighttpd (1.4.79-1) unstable; urgency=medium
+
+  lighttpd 1.4.79 hardens and restricts systemd lighttpd.service.
+  If you need to change the restrictions, then create a systemd
+  override to the lighttpd.service.
+  To create an override, `systemctl edit lighttpd` and edit
+  /etc/systemd/system/lighttpd.service.d/override.conf
+
+ -- Glenn Strauss <gstrauss@gluelogic.com>  Tue, 10 May 2025 11:28:09 -0500
+
+lighttpd (1.4.77-1) unstable; urgency=medium
+
+  lighttpd 1.4.77 strengthens lighttpd TLS defaults to MinProtocol TLSv1.3.
+  Modify lighttpd TLS module config in /etc/lighttpd/conf-available2/*.conf
+  to set MinProtocol if older TLS protocols need to be enabled.
+  Reference:
+    https://wiki.lighttpd.net/Docs_SSL
+
+ -- Glenn Strauss <gstrauss@gluelogic.com>  Tue, 11 Feb 2025 17:11:11 -0500
+
 lighttpd (1.4.69-1) unstable; urgency=medium
 
   This version removes "mini-application" lighttpd modules for which

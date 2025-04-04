@@ -2,6 +2,7 @@
 Description=lighttpd maintenance tasks
 RequiresMountsFor=/var/cache
 ConditionPathExists=/etc/cron.daily/lighttpd
+Documentation=https://wiki.lighttpd.net
 
 [Service]
 User=www-data

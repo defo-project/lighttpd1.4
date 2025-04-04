@@ -2,31 +2,30 @@ Source: lighttpd
 Section: httpd
 Priority: optional
 Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
-Uploaders: Glenn Strauss <gstrauss@gluelogic.com>, Stefan Bühler <stbuehler@web.de>
+Uploaders: Glenn Strauss <gstrauss@gluelogic.com>, Stefan Bühler <source@stbuehler.de>
 Homepage: https://www.lighttpd.net/
 Build-Depends:
  dpkg-dev (>= 1.16.1~),
- debhelper-compat (= 12),
- libdeflate-dev,
- media-types <!nocheck> | mime-support <!nocheck>,
- libgnutls28-dev (>= 3.6.5),
+ debhelper-compat (= 13),
+ dh-sequence-zz-debputy-rrr (>= 0.1.23~),
+ libdeflate-dev [!hurd-any],
+ libgnutls28-dev (>= 3.6.5) [!hurd-any],
  libmbedtls-dev (>= 2.14.0),
  libnss3-dev (>= 2:3.26.2),
  libssl-dev,
- libwolfssl-dev (>= 3.14.0~),
+ libwolfssl-dev (>= 3.14.0~) [!hurd-any],
  zlib1g-dev,
  libbrotli-dev,
  libpcre2-dev,
- default-libmysqlclient-dev | libmysqlclient-dev,
+ default-libmysqlclient-dev [!hurd-any],
  libdbi-dev,
  libldap2-dev,
  liblua5.4-dev,
  libmaxminddb-dev,
- pkg-config,
- uuid-dev,
+ pkgconf,
  libsqlite3-dev,
  libxml2-dev,
- libkrb5-dev,
+ libkrb5-dev [!hurd-any],
  libpam0g-dev,
  libpq-dev,
  libsasl2-dev,
@@ -37,8 +36,8 @@ Build-Depends:
  perl:native,
 Vcs-Git: https://salsa.debian.org/debian/lighttpd.git
 Vcs-Browser: https://salsa.debian.org/debian/lighttpd
-Standards-Version: 4.6.2
-Rules-Requires-Root: binary-targets
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
 
 Package: lighttpd
 Architecture: any
@@ -49,27 +48,22 @@ Provides:
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
- media-types | mime-support,
- systemd-sysv | lsb-base,
 Pre-Depends:
  ${misc:Pre-Depends},
-Conflicts:
- lighttpd-mod-geoip,
- lighttpd-mod-trigger-b4-dl,
 Recommends:
- spawn-fcgi,
- perl:any,
  lighttpd-mod-deflate,
  lighttpd-mod-openssl,
 Suggests:
  openssl,
  php-cgi,
  php-fpm (>= 2:7.4),
+ spawn-fcgi,
  apache2-utils,
  lighttpd-doc,
  lighttpd-mod-webdav,
  lighttpd-modules-dbi,
  lighttpd-modules-lua,
+ media-types | mime-support,
 Description: fast webserver with minimal memory footprint
  lighttpd is a small webserver and fast webserver developed with
  security in mind and a lot of features.
@@ -103,11 +97,6 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
  lighttpd (= ${binary:Version}),
-Breaks:
- lighttpd-mod-vhostdb-dbi (<< 1.4.56~rc7-0+exp2),
-Replaces:
- lighttpd (<< 1.4.56~rc7-0+exp2),
- lighttpd-mod-vhostdb-dbi (<< 1.4.56~rc7-0+exp2),
 Provides:
  ${lighttpd:ModuleProvides},
 Description: DBI-based modules for lighttpd
@@ -147,13 +136,6 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
  lighttpd (= ${binary:Version}),
-Conflicts:
- lighttpd-mod-cml,
-Breaks:
- lighttpd-mod-magnet (<< 1.4.56~rc7-0+exp2),
-Replaces:
- lighttpd (<< 1.4.56~rc7-0+exp2),
- lighttpd-mod-magnet (<< 1.4.56~rc7-0+exp2),
 Provides:
  ${lighttpd:ModuleProvides},
 Description: LUA-based modules for lighttpd
@@ -168,14 +150,12 @@ Description: LUA-based modules for lighttpd
  packages instead.
 
 Package: lighttpd-modules-mysql
-Architecture: any
+#Architecture: any !hurd-any
+Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
  lighttpd (= ${binary:Version}),
-Conflicts:
- lighttpd-mod-authn-mysql,
- lighttpd-mod-mysql-vhost,
 Provides:
  ${lighttpd:ModuleProvides},
 Description: MySQL-based modules for lighttpd
@@ -211,7 +191,8 @@ Description: WebDAV module for lighttpd
   UNLOCK
 
 Package: lighttpd-mod-authn-gssapi
-Architecture: any
+#Architecture: any !hurd-any
+Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
@@ -246,8 +227,6 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
  lighttpd (= ${binary:Version}),
-Breaks: lighttpd (<< 1.4.56~rc7-0+exp2)
-Replaces: lighttpd (<< 1.4.56~rc7-0+exp2)
 Description: HTTP response compression module for lighttpd
  This package contains the deflate module for lighttpd. With this module, it is
  possible compress HTTP responses using zlib, brotli, or zstd if supported by
@@ -276,7 +255,8 @@ Description: PostgreSQL-based virtual host configuration module for lighttpd
  table instead of including it in the lighttpd configuration file.
 
 Package: lighttpd-mod-gnutls
-Architecture: any
+#Architecture: any !hurd-any
+Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
@@ -312,14 +292,13 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
  lighttpd (= ${binary:Version}),
-Breaks: lighttpd (<< 1.4.56~rc7-0+exp2)
-Replaces: lighttpd (<< 1.4.56~rc7-0+exp2)
 Description: TLS support using OpenSSL module for lighttpd
  This package contains the openssl module for lighttpd. With this module, it is
  possible serve https:// URLs.
 
 Package: lighttpd-mod-wolfssl
-Architecture: any
+#Architecture: any !hurd-any
+Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},

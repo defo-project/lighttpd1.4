@@ -1,2 +1,3 @@
 debian/tmp/usr/lib/lighttpd/mod_gnutls.so
 debian/conf-available2/10-gnutls.conf etc/lighttpd/conf-available
+debian/modules-load.d/lighttpd-mod-gnutls.conf usr/lib/modules-load.d/
