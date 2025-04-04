@@ -1,2 +1,3 @@
 debian/tmp/usr/lib/lighttpd/mod_openssl.so
 debian/conf-available2/10-ssl.conf etc/lighttpd/conf-available
+debian/modules-load.d/lighttpd-mod-openssl.conf usr/lib/modules-load.d/
