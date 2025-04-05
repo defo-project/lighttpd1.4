@@ -1,0 +1,758 @@
+Package: lighttpd-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 1171
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 913152
+MD5sum: faddd2549f9e1c8c9fcf0c436d53e19d
+SHA1: 5798948390a3a20f74599133c997eff0573aa2cf
+SHA256: 811b7e180da29132c576c6f0f1195833febc8d8924c4ab3508ca5290af273066
+SHA512: fa0e5e362e40dfbfe2080db32f93572012282fa25080f2353a709f18dbab08be38005c9ee16e46000bf60ba852eae2f29871c9ee6404489b2c937cb9d4334822
+Description: debug symbols for lighttpd
+Build-Ids: 1ccd9e379cbc54c0e85659ab2b0903d27c8ee540 3601676522f422cdddc2cecded6f9333c88044a1 369e562fb8bc95ec7fb6528d7524a9ef0b5cfca8 4969b6b13dd7f0b24206a551fa1251676d9382dc 4bb7d9ffe80b515a18aab70436298c3d0051d88f 599c26b366bc7226192fb0de683fb04578b4d839 5c681d786df489605efc39f215000dc81550224c 61ba1a43372710675866cc8b52297e4e4cf3ad70 6a318b793f829df0382a6fedfd14d2692d8cc36e 842cc353a13bade2a692a60e25fe1189dd28518a a63a974fbc469cf172332df39ca0d21b05013c2b bc039c3e20fe37efbb543ee30ae2257ea6052908 bc8d81aa03c44dfaeec936b35db97e35a50e7aaf cce502bad593a8b78f739018b48039cec001ae02 e8fda328379fedfb5dd3ab2db4ec881bba103436 ecbce1ddf6cd6fb6afdfbc90776493aad89670d3 ed53f266b730afeadfc7749bdcaf5a2b7de8739a f639619b9a2f8d7c328a7c5f67a37e19edb583d7
+
+Package: lighttpd-doc
+Architecture: all
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 103
+Suggests: lighttpd
+Filename: ./lighttpd-doc_1.4.79.5.g82784f6f-20250405.062724732952384_all.deb
+Size: 51040
+MD5sum: f1c533f4715bd7ed97fcc7011415ed88
+SHA1: ba60300d3bdcb828559eae462796328c6f9d928e
+SHA256: 8c39435194f8a49c0d39b030d3166d28a2232c850e84d31a8508308257bb51fb
+SHA512: 77a85010c302b91d91261f0b923a4edc34a09304c6b4fd6d4c3a89abccd8210bf30fd5e5f64d6bff19e9164b37d3b8bfc64fe6147111b68929c0f6f353dbb116
+Homepage: https://www.lighttpd.net/
+Description: documentation for lighttpd
+ lighttpd is a small webserver and fast webserver developed with
+ security in mind and a lot of features.
+ .
+ This package contains documentation for lighttpd.
+
+Package: lighttpd-mod-authn-gssapi-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 43
+Depends: lighttpd-mod-authn-gssapi (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-authn-gssapi-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 27376
+MD5sum: 3adea7a37c7fa53fcc94b9522b6aed0f
+SHA1: 0b605d3e7e5a91951c7bb6cabf91ea7ef96b8a4b
+SHA256: 219c58f9858f22e869e6c6edc62467ebc2c11f6e7dd81d9468e8c8e00227d185
+SHA512: 6ba58b8356caf95da226c2f80e43ea20ec2f52b529b502484eb402b282d8bab9bb72a0331b08fb525ecd1c94efd820d3409b78082017b03b0f9eb611d3ee9ec8
+Description: debug symbols for lighttpd-mod-authn-gssapi
+Build-Ids: 81a592360dc17952ba617924fa31b7edd556524d
+
+Package: lighttpd-mod-authn-gssapi
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 34
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.4), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.10+dfsg~)
+Filename: ./lighttpd-mod-authn-gssapi_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 8216
+MD5sum: 9bc7a43da9b3649a6c9528654950b4c3
+SHA1: 31263d0414695ce58e64e0218472ef711eeab2ed
+SHA256: 5c4376bd39efbf83248a11de8fd5001666dd0923afaf1798251e755def4cdbfb
+SHA512: 639525cb16cfc0aaf5f57a84c86c4b92d552eb4dc8ced1249e5d0663135decf4534664b4dea6c40d0de7cb3e090659aca04ce7c67ca34da41fe6a2513b40ccc9
+Homepage: https://www.lighttpd.net/
+Description: GSSAPI authentication module for lighttpd
+ This package contains the authn_gssapi module for lighttpd. With
+ this module, it is possible to perform GSSAPI authentication.
+
+Package: lighttpd-mod-authn-pam-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 27
+Depends: lighttpd-mod-authn-pam (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-authn-pam-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 14272
+MD5sum: 1294f4f1ed20133d476f797f543d4da5
+SHA1: 3c029e0d651afe8d4ef2332989f9fc549a08eb5c
+SHA256: 9e82e69446234f085415a230ceeb33a0744b85eb7da692ba5659d65bfd2f71cf
+SHA512: 5be96265fc6b7b17a0dcdb7c37aa70b427f71e762467cb33c5aa1f1b06ddca09962949a4b67f898eed11180d258fa80fc7096a137e9ae59c6cdc5e1f79ae8fca
+Description: debug symbols for lighttpd-mod-authn-pam
+Build-Ids: 5cf8140a36b0939e4f6a3e131aa6e77261383751
+
+Package: lighttpd-mod-authn-pam
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 22
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.4), libpam0g (>= 0.99.7.1)
+Filename: ./lighttpd-mod-authn-pam_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 3636
+MD5sum: 81d638ed6ac868ce2d7ac9a2c026cfca
+SHA1: ed2f655777b6f366b9a2e2a9a1f18255585d7ffa
+SHA256: 15b6cfaca6a01bf60e9ac747dd417b495099e5c8980dae5554fda36be02c58a1
+SHA512: c5425c09a91f5127daaf6d61b2c4be474a7f3ad52101b6e4795222eb178c24553bd66d57bce51e4588af296a7aca627f6548d20e5b508e7c4d8d9be99560d938
+Homepage: https://www.lighttpd.net/
+Description: PAM authentication module for lighttpd
+ This package contains the authn_pam module for lighttpd. With this module, it
+ is possible to perform authentication using PAM.
+
+Package: lighttpd-mod-authn-sasl-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 30
+Depends: lighttpd-mod-authn-sasl (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-authn-sasl-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 16312
+MD5sum: c523d4eafb9695e545a01be5ce9796fe
+SHA1: b397824e12342edf9b5db22df6230c0429ba5a83
+SHA256: d889f79ac95da1b5d5f49cc6e91a2a838d68f4056b7f2356f4bb2b1f09be2552
+SHA512: 03e2811f1762fec648e9bb602102be4ea2cfd87b9c4e7f73e3d3e66e010a9ecd16af7bc15b4f35874d5c458deb0b00ef80d79b97c785559a3e60679c0f129ee7
+Description: debug symbols for lighttpd-mod-authn-sasl
+Build-Ids: 74486967d93853edf35dbbc60af8abaed535e8ea
+
+Package: lighttpd-mod-authn-sasl
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 22
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.4), libsasl2-2 (>= 2.1.28+dfsg1)
+Filename: ./lighttpd-mod-authn-sasl_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 4396
+MD5sum: 113566f79686dcab8952a1ce4ff22dc1
+SHA1: 9814937f346627de7dc33268ce5d71b499734ee3
+SHA256: f56fa6f797c30f066d0bad04569338ca9c9361ad033959f7189987d4484552ff
+SHA512: 76f4989d94c30af4164c56515fdeba516ca4f3367e79cd24f2ffe87dbd597c7c214b61fa574b758e42e9c915da7673ee30cf2d58e076efea58d1bc8f76c620d5
+Homepage: https://www.lighttpd.net/
+Description: SASL authentication module for lighttpd
+ This package contains the authn_sasl module for lighttpd. With this module, it
+ is possible to perform authentication using SASL.
+
+Package: lighttpd-mod-deflate-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 53
+Depends: lighttpd-mod-deflate (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-deflate-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 38448
+MD5sum: 598a69393ee4e7778fec7757dd4d14dc
+SHA1: 706c6cc3865208388b85a5f6e7ad9ccb7de3616a
+SHA256: f08935502bc45098b9bacbbaf6a545cfd87c952323786c0c761e36135a081fb9
+SHA512: 6daaae32c2786f1d1835eee6c214f354e5ea7a3a04a266485b10efe678a2c32e6a848e8a7696fd1039f400eabfcfa079b9ab72e524b8e7d447a19b81242cbc7d
+Description: debug symbols for lighttpd-mod-deflate
+Build-Ids: cbe87a1a0383b8d4cf5c05a6d736ba14a0d7a87c
+
+Package: lighttpd-mod-deflate
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 47
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libbrotli1 (>= 0.6.0), libc6 (>= 2.33), libdeflate0 (>= 1.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Breaks: lighttpd (<< 1.4.56~rc7-0+exp2)
+Replaces: lighttpd (<< 1.4.56~rc7-0+exp2)
+Filename: ./lighttpd-mod-deflate_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 12356
+MD5sum: 3b70b2c313c9499150bb0baec9b3ea50
+SHA1: 1477b6cc4f45b8fabc018fe552138a1695ae8886
+SHA256: 0895c524adb47737a0c49a8c760fafe1ed6f123171911e826b8ab3a56d349532
+SHA512: aabe89312692affe51d84a02ded3e96a0e4c4f2a8ac0423f5e99bb93c64e2d23642fac4f4efd2faeba01b4e7238052e2401adb2a78497c1a61f368f999257254
+Homepage: https://www.lighttpd.net/
+Description: HTTP response compression module for lighttpd
+ This package contains the deflate module for lighttpd. With this module, it is
+ possible compress HTTP responses using zlib, brotli, or zstd if supported by
+ the client.
+
+Package: lighttpd-mod-gnutls-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 80
+Depends: lighttpd-mod-gnutls (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-gnutls-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 60660
+MD5sum: 5796ff40ed8fd4c62aab541e51b110b3
+SHA1: 76e381eb4109f7095f51098a3f88c951d83264a0
+SHA256: 31ba2bc951364012a666edbb4c86973c68cdecccebacdc427ed44c22d482b15c
+SHA512: 3894560c583de2f08d46b46e540e88af5d9a6403f54fc1fa8b827bc53356353b31129488b96a54b50dda387cac19b55ce871ed45cb098b28f5c6ac86f7d71563
+Description: debug symbols for lighttpd-mod-gnutls
+Build-Ids: 3503231ae47405491903a5829cfe3b3e3a22e4c8
+
+Package: lighttpd-mod-gnutls
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 75
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.33), libgnutls30t64 (>= 3.8.6)
+Filename: ./lighttpd-mod-gnutls_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 21260
+MD5sum: b7a8d4b6dc97df30ccc78dd060f0b0e4
+SHA1: 81908139284cc5225c8f390a88b6014a9a4a3b65
+SHA256: 5f136ad38ca818f6a23b1efe4412523c064efc2631c77aaa170863c353d1b2cd
+SHA512: 2bef243bdfdb78baa89908439d39f3fa59688ff90d68f06c7ce0a09a4651eef4ff10084056cac5e2107127b6a01f93754a6b447f1d43c471abedc8b8d64d220d
+Homepage: https://www.lighttpd.net/
+Description: TLS support using GnuTLS module for lighttpd
+ This package contains the gnutls module for lighttpd. With this module,
+ it is possible serve https:// URLs.  GnuTLS is an alternative to OpenSSL.
+
+Package: lighttpd-mod-maxminddb-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 32
+Depends: lighttpd-mod-maxminddb (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-maxminddb-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 18752
+MD5sum: f45b145966351f887420d396f78bd9bb
+SHA1: ca746e46c95e4dc739adbe51346aeaa92c8958f9
+SHA256: 4c7a3231f0e4c4434cdf2e512552f8af1f884a07381feee3dc847640f340b647
+SHA512: 02290970143ab7aa539fd16cc06051e3624ec3f4cbea87b6ab0a4639449ea422109aa325c1ae4f9185bd6377f5e324dae0b6db1709e948d36c738996b2c46797
+Description: debug symbols for lighttpd-mod-maxminddb
+Build-Ids: 47853215d29433c50d6d49ece13c6e721a3da956
+
+Package: lighttpd-mod-maxminddb
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 22
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.4), libmaxminddb0 (>= 1.0.2)
+Filename: ./lighttpd-mod-maxminddb_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 5044
+MD5sum: 4d9ec4da48d7679f7b2aac11527af825
+SHA1: 4101cb37e0352ab7eaf1d72796165d1bde1a7e0b
+SHA256: e0888a629766af1ed8d82f95b99d020c52e02c992e51a45aab9ebbee1a810928
+SHA512: b8d076b08865fada8bdbf9b26025e9b42ade9428f7bd05584103eb6db5b9a9f8a2e90a27b528a33eab02acde65845471a92c2be503725a444d731e7e1e23af2f
+Homepage: https://www.lighttpd.net/
+Description: GeoIP2 info module for lighttpd
+ This package contains the maxminddb module for lighttpd. With
+ this module, it is possible to distinguish users based on the location
+ using a GeoIP2 database.
+
+Package: lighttpd-mod-mbedtls-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 81
+Depends: lighttpd-mod-mbedtls (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-mbedtls-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 62076
+MD5sum: dbb93d1d6b6e0d57a234aae9b1140765
+SHA1: 1b9eb586d47e3eb2b62e3e33c0f71cd24b8c3b34
+SHA256: 6369355acff7ff1ab86d9a60cf2e5f2d785d09e7e922216b688727a4bfdfff44
+SHA512: b18a544f417f34577f264faee11f848ef4972bb0f99982befe67b704009dfedfbdbf8fd1f2f7ad24b82f4153df7171ba7e04b796f81925ab613872eda00deeac
+Description: debug symbols for lighttpd-mod-mbedtls
+Build-Ids: 8e5fd141db8773a5b67f44c7ca1004ccb3c02450
+
+Package: lighttpd-mod-mbedtls
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 68
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.33), libmbedcrypto16 (>= 3.6.0), libmbedtls21 (>= 3.6.0), libmbedx509-7 (>= 3.6.0)
+Filename: ./lighttpd-mod-mbedtls_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 20512
+MD5sum: d13ec059d35a264c6a4a0c190eb6ffd5
+SHA1: 807010eab91cfdc8cb032eeb0b59133091305c77
+SHA256: fe98573a3080484279a517b1622f0ce42650920a20ea94ffbfc658a715ef2b42
+SHA512: b2433ac1e90a5f1776ea658087844553cbf595af07e49b6826021a99e1f1afbf3a9c274042b78a611e7df9bd4ae70decc22ca0f8a36be5d6e61d5cfad3f55fbd
+Homepage: https://www.lighttpd.net/
+Description: TLS support using mbedTLS module for lighttpd
+ This package contains the mbedtls module for lighttpd. With this module,
+ it is possible serve https:// URLs.  Aimed at embedded systems, mbedTLS
+ uses less memory than OpenSSL, though is slightly slower than OpenSSL.
+
+Package: lighttpd-mod-nss-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 88
+Depends: lighttpd-mod-nss (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-nss-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 70660
+MD5sum: 48b29bbff27a3ec0478cc6b9062339ed
+SHA1: 44a6c8a7a0a8605b9190a208fed8594533ca138b
+SHA256: b6794f3d8fdb680e71023ef6092aa5aaac8ef9dabfe0d7edcdf4412290f52636
+SHA512: 0b9a43041b7b0f4d55e370fbda720f63121d29c3285e7b730048e59a19f5439ddd78dbdb5d5a9efa2c161822b8c5757a9c8fbc017a3c563eda5995c63d22976e
+Description: debug symbols for lighttpd-mod-nss
+Build-Ids: 936a35135fcb610b0a9db01a665a465147540fba
+
+Package: lighttpd-mod-nss
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 84
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.33), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.66)
+Filename: ./lighttpd-mod-nss_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 22920
+MD5sum: 9a36e02f9565b9e0a92f43fa65476e41
+SHA1: aeb679847c3c8b60361b2a16c6af7b88a84e91a3
+SHA256: a096d1f9423fe708bc445e67b4ccda4d8f65cd250bb442443658940af0c44716
+SHA512: 6edbb23a200029d9e4ed6121da87fd80d25026f2b3796245a7d1b4dd118861f679c897032dc9bb53e7f0d469df244a8441ef3cc0c73d8db48614c4e69962c661
+Homepage: https://www.lighttpd.net/
+Description: TLS support using NSS crypto module for lighttpd
+ This package contains the nss module for lighttpd. With this module,
+ it is possible serve https:// URLs.  NSS is an alternative to OpenSSL.
+
+Package: lighttpd-mod-openssl-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 90
+Depends: lighttpd-mod-openssl (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-openssl-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 67156
+MD5sum: ba6fa93bf9f209286d980b2b9e56e1ce
+SHA1: db791be5c1a18fe89a0566b3dc34e6a90daf5e89
+SHA256: f8907f5e12eca877cedae1209cb87090ef3b31b6d30bb3409428a1a7936c8790
+SHA512: 7f384b1eb979c3d38b16f5ddbc60b21e5a16b60ac0c04a3d5d959cc34044d6cefd3bf703c2d21311f788041268a7f0b12e64548b6e8663af2d59cf759ad87785
+Description: debug symbols for lighttpd-mod-openssl
+Build-Ids: 28b7ef775aa739af8a6bc13809e2c467ff58a462
+
+Package: lighttpd-mod-openssl
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 79
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.38), libssl3t64 (>= 1:3.4.0.alpha1.1342.g0f78f8ebc1)
+Breaks: lighttpd (<< 1.4.56~rc7-0+exp2)
+Replaces: lighttpd (<< 1.4.56~rc7-0+exp2)
+Filename: ./lighttpd-mod-openssl_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 23920
+MD5sum: 178e9d81ad83a7f6d01cfe10ad03278f
+SHA1: d8ce393b5508a64c05e39146d385c8bcfaa3a17e
+SHA256: a5260a44b57c13af75803adcd669513024d8386dfb1f9816236d73170c4af04a
+SHA512: f355e3011d09af3dc3f87e45b9573cbff4ea6dc288ea24970b231c8f6f6847bf87f8c9971a0062c423dedb11072496fafb1d1758ce2e82080dcaf5b4b9367275
+Homepage: https://www.lighttpd.net/
+Description: TLS support using OpenSSL module for lighttpd
+ This package contains the openssl module for lighttpd. With this module, it is
+ possible serve https:// URLs.
+
+Package: lighttpd-mod-vhostdb-pgsql-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 29
+Depends: lighttpd-mod-vhostdb-pgsql (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-vhostdb-pgsql-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 15720
+MD5sum: 403e7ac0f9bbaf0b7b1488dc470ae0c6
+SHA1: bef7b9ca2b510175b0c2186542626c01d8e8e651
+SHA256: f031f2383bf93b9af03c422d94a16f92e169819fd13e0b814bf002d3ec1e89aa
+SHA512: 5acefb9e8251ecea1656a15c20375b183833609450e6f00b820b3fc242893a4b40ec0049741992e4c4c3ef2cd33126a46e4c5bec96d46d754cd501d7c981aef7
+Description: debug symbols for lighttpd-mod-vhostdb-pgsql
+Build-Ids: 1da64ad0d96e9014824652b0b34face4d4bbf757
+
+Package: lighttpd-mod-vhostdb-pgsql
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 22
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.4), libpq5
+Filename: ./lighttpd-mod-vhostdb-pgsql_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 4248
+MD5sum: d68b87aa7aa03be1f405919aa3dee67c
+SHA1: 769c7e285b77a9a6e0f694218195b59696b07f1e
+SHA256: 1393769b159f4a8d76c39b788aaa0371f5ff851813a61f65415c777f3b28adc8
+SHA512: aa13f1d24f6007221ac1fa9b4dfcb6bd1ce24e9af4ef8170a53d6a1c2faacca7cb4857f03bbb893fd68a4daa1929786e836ce19d601d6787fdda76f1bb4a4352
+Homepage: https://www.lighttpd.net/
+Description: PostgreSQL-based virtual host configuration module for lighttpd
+ This package contains the vhostdb_pgsql module for lighttpd. With this module,
+ it is possible to write the configuration for virtual hosts into a PostgreSQL
+ table instead of including it in the lighttpd configuration file.
+
+Package: lighttpd-mod-webdav-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 110
+Depends: lighttpd-mod-webdav (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-webdav-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 93188
+MD5sum: ee89a5bb83281a5bcbdfeba82113e531
+SHA1: 878af3916145bc28be26e6aa9f100734c9c5e2c9
+SHA256: 38f09b89b96fee9258458f609f6a70429b5f640aa627ffda4e57d97b5317df84
+SHA512: 8b12fbe0dd192c9a60f45175e71dc2a5305b96e59d6d8171da30927be6a6a0a46074fd7fdabec12de250878b17427ea1b73f14267b0e7d4f31b314e0cb777888
+Description: debug symbols for lighttpd-mod-webdav
+Build-Ids: 10d35b900561f01110aadbb00de1572353a556f6
+
+Package: lighttpd-mod-webdav
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 87
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.38), libsqlite3-0 (>= 3.20.0), libxml2 (>= 2.7.4)
+Filename: ./lighttpd-mod-webdav_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 26988
+MD5sum: 7a8815ecbef160aada9a2b40033edadf
+SHA1: ffc447a8fc54a7105e94dc412fd808e733bbb807
+SHA256: 4e762d5a66d1709658dda379d656f4459536e2ae8c505aef404de4986bb6b0dc
+SHA512: 816fd936fc97561017c0c038309cd40b9b6f8bcd64999e1c19c80925699fac38ddf100f023dc3d60582e9be9269562050cd50de87a96a7086b7b57c40029f554
+Homepage: https://www.lighttpd.net/
+Description: WebDAV module for lighttpd
+ The WebDAV module is an implementation of RFC 4918.
+ .
+ Currently supports:
+  GET
+  POST
+  HEAD
+  PROPFIND
+  PROPPATCH
+  OPTIONS
+  MKCOL
+  COPY
+  MOVE
+  DELETE
+  PUT
+  LOCK
+  UNLOCK
+
+Package: lighttpd-mod-wolfssl-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 91
+Depends: lighttpd-mod-wolfssl (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-mod-wolfssl-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 71648
+MD5sum: a0c713723df95296d5b8ba7ca9a8cb31
+SHA1: 1f6dab90f15bb094a0c8f6f806c2646efbe3ec0e
+SHA256: 62ba8ba64cb88869024e7e1bf09f2445a574a39aaa97a791a1a093c0dd852453
+SHA512: 4744d87df8f02a941bc8d235a6c905a5cc2f4106e0d20f260da5daf4def1aef1202353177a3f1dcfc787de7362920ba07a69c5531334894e040e467af5fd6961
+Description: debug symbols for lighttpd-mod-wolfssl
+Build-Ids: cb421f90ccf0a96eeec211284644d7886fbf2bbb
+
+Package: lighttpd-mod-wolfssl
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 76
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.33), libwolfssl42t64 (>= 5.5.3)
+Filename: ./lighttpd-mod-wolfssl_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 21104
+MD5sum: f277ad15c021307fdb55931fe4c3d792
+SHA1: 0fb586f0b4019d8cb612fbbd322dafa5554ae5a3
+SHA256: 812417a2b35a2e05b10ecddde546540f74acc27738f7302977583e991754a369
+SHA512: 399d023653d7239f7d05dad6eb1848c0c39dd2b3cb8bf72e57aa9e7593a519156dbd7c705c5dae79c499edda0da636094d54b358d350aaaae12f14cf396cd61e
+Homepage: https://www.lighttpd.net/
+Description: TLS support using wolfSSL module for lighttpd
+ This package contains the wolfssl module for lighttpd. With this module,
+ it is possible serve https:// URLs.  Aimed at embedded systems, wolfSSL
+ uses less memory than OpenSSL, though is slightly slower than OpenSSL.
+
+Package: lighttpd-modules-dbi-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 58
+Depends: lighttpd-modules-dbi (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-modules-dbi-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 34928
+MD5sum: e84fccd4cd4d8fdeca35ed710b1cd7a6
+SHA1: 1de194f3601a10314446b5f34e765829179636c3
+SHA256: f3999fb15a57440b8971ec2ba092f04e3dc843d9d7c6a1d7e973223670ce2489
+SHA512: 5eb9bc3f55ee7d94f4c93c4ae16a8cf4303f00aeecb1b6672f5a7eea7d5d44cec24060eb09f236c7f7e1311ee3af5bad45d659096fde6a4617f6346d4818a3b9
+Description: debug symbols for lighttpd-modules-dbi
+Build-Ids: 0e3fead4c49d30bca1f7c4f2118d606874135609 221a1903fc8c251dce42f20c7a1e189b558115a0
+
+Package: lighttpd-modules-dbi
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 46
+Provides: lighttpd-mod-authn-dbi, lighttpd-mod-vhostdb-dbi
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libdbi1t64 (>= 0.9.0), libnettle8t64
+Breaks: lighttpd-mod-vhostdb-dbi (<< 1.4.56~rc7-0+exp2)
+Replaces: lighttpd (<< 1.4.56~rc7-0+exp2), lighttpd-mod-vhostdb-dbi (<< 1.4.56~rc7-0+exp2)
+Filename: ./lighttpd-modules-dbi_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 7868
+MD5sum: 070a9b77a813202d36aa3f51f70788dc
+SHA1: 155990e8700ef55a581d3a8f32fa9096aece4d76
+SHA256: b7431e391f1366a7dbe1c5a12c81ade5d687c05a21a34fc24b39f3f224c636a5
+SHA512: f44e6db4e70f5fefc120934b48009a32474471b56399a8b64a06ee04cd63580a57811e9dd477180119eb39eb10cc9c7c8820e25b1514b66638f3309cc2daf921
+Homepage: https://www.lighttpd.net/
+Description: DBI-based modules for lighttpd
+ This package contains the following modules:
+  * mod_authn_dbi: DBI-based authentication
+    mod_authn_dbi performs authentication against a database server
+    via DBI interface.
+  * mod_vhostdb_dbi: DBI-based virtual host configuration
+    mod_vhostdb_dbi enables writing the configuration for virtual hosts
+    into a database table instead of including it in the lighttpd
+    configuration file.
+ .
+ Do not depend on this package. Depend on the provided lighttpd-mod-*
+ packages instead.
+
+Package: lighttpd-modules-ldap-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 66
+Depends: lighttpd-modules-ldap (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-modules-ldap-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 42812
+MD5sum: dafb59ae1f768bdb897cece67610b5ab
+SHA1: ba85e988dd384afdcf6cfd63c073ea6a13e25f9c
+SHA256: a9d13fed23952590c2a1348033c3ed930563b01257e8fd83484053f8a5f02b4a
+SHA512: 1b7503c4a415ced2786cd2ff51018fb6fea36681860bb84854d5c1835e4b2c4e87fcef53d797903b4d51ef391fc598635a7eeaae504e281cb2225f7d03514b46
+Description: debug symbols for lighttpd-modules-ldap
+Build-Ids: 8627fd12f7fbf854e96a58aa8606340f0ea3bd9b d9e904a44d0096bc21f683168fb41ea0130835ca
+
+Package: lighttpd-modules-ldap
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 50
+Provides: lighttpd-mod-authn-ldap, lighttpd-mod-vhostdb-ldap
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.38), libldap2 (>= 2.6.2)
+Filename: ./lighttpd-modules-ldap_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 10652
+MD5sum: 938ae90cf7f58254ffabd3c65bb75fa3
+SHA1: 3eacf4fa5c26a38e1502253546b613555e2b9e86
+SHA256: 63e3939a1f8434e54d0d5a3fbc2a59ace347c197129c2fb69ab691eb3f2c6365
+SHA512: 7b0d7bfda123f3a645af4b59f0c04fce20be5cbe0d1d8b8a88eade3619efa505bd0384ee610d4b191e16f313c862a3a1033830964f7404d68c8209055cce4638
+Homepage: https://www.lighttpd.net/
+Description: LDAP-based modules for lighttpd
+ This package contains the following modules:
+  * mod_authn_ldap: With this module, it is possible to perform
+    authentication against an LDAP server.
+  * mod_vhostdb_ldap: Database backend module for using LDAP as
+    a source for virtual host configuration using mod_vhostdb.
+ .
+ Do not depend on this package. Depend on the provided lighttpd-mod-*
+ packages instead.
+
+Package: lighttpd-modules-lua-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 89
+Depends: lighttpd-modules-lua (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-modules-lua-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 68860
+MD5sum: bd6c1d359a9b1904754c1c7d07298930
+SHA1: 30d0c062fa48932578d2c74284a6c9f011f0fce6
+SHA256: 382d990265ba41c8f167ce088e60e83d99135fe4b1c63d0b8e5d6379b293b028
+SHA512: 59b64595f919c67d58ebed7cf9560e83fb0aa1b46bc76ac664130a9fdc30de37787fcc49486f5f49b14b323fc3a55e23f9efcd13e21e94ed648a418a143fc9ab
+Description: debug symbols for lighttpd-modules-lua
+Build-Ids: 40c85ae9ae3982931f8508eb28e27f1d6610f820
+
+Package: lighttpd-modules-lua
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 83
+Provides: lighttpd-mod-magnet
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.38), liblua5.4-0 (>= 5.4.6), libnettle8t64
+Conflicts: lighttpd-mod-cml
+Breaks: lighttpd-mod-magnet (<< 1.4.56~rc7-0+exp2)
+Replaces: lighttpd (<< 1.4.56~rc7-0+exp2), lighttpd-mod-magnet (<< 1.4.56~rc7-0+exp2)
+Filename: ./lighttpd-modules-lua_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 22892
+MD5sum: 9252a15a8ae015582b7460e2dec69fa8
+SHA1: e9a7eda316b9b7e223e34a38420274f65e836c5c
+SHA256: 9e2095b5c9f2f9a4a13c321a7e71ecedb070c74ba0e675a67dccbdc56b09c3e1
+SHA512: 0f9580d6afc96c657441e92e31cb6764fe48c2445267b74fa210f860e5726c986cc3669d6d334ebd2feea17caecba9d95ee68b7b539c18205b0a7f2fb4d818a4
+Homepage: https://www.lighttpd.net/
+Description: LUA-based modules for lighttpd
+ This package contains the following modules:
+  * mod_magnet: control the request handling module for lighttpd
+    mod_magnet can attract a request in several stages in the request-handling.
+    either at the same level as mod_rewrite, before any parsing of the URL is
+    done or at a later stage, when the doc-root is known and the physical-path
+    is already setup.
+ .
+ Do not depend on this package. Depend on the provided lighttpd-mod-*
+ packages instead.
+
+Package: lighttpd-modules-mysql-dbgsym
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 38
+Depends: lighttpd-modules-mysql (= 1.4.79.5.g82784f6f-20250405.062724732952384)
+Filename: ./lighttpd-modules-mysql-dbgsym_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 25284
+MD5sum: 7a049a8dee2d4279575fc7628b2f55a6
+SHA1: 453ed0f2d3a8076afc090e24010280b7af1b56ae
+SHA256: a12dfec3b5b14f0344c611fd306033228e75117e56cd5e86569078dc813ac07e
+SHA512: b575ca18fddf5d1ff793aa3587d64542360c734ff3086f34f558c299a3cf30cb65cf20874834a10236509ac8ce286783185b425951bf9f0a87d6ffcbf25399ae
+Description: debug symbols for lighttpd-modules-mysql
+Build-Ids: e827a0ee30776b5e11f33cbd08bf22a242afb87d
+
+Package: lighttpd-modules-mysql
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Source: lighttpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 22
+Provides: lighttpd-mod-vhostdb-mysql
+Depends: lighttpd (= 1.4.79.5.g82784f6f-20250405.062724732952384), libc6 (>= 2.38), libmariadb3 (>= 3.0.0)
+Conflicts: lighttpd-mod-authn-mysql, lighttpd-mod-mysql-vhost
+Filename: ./lighttpd-modules-mysql_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 4520
+MD5sum: 45930d68a50a9e7ccab6e92590c97620
+SHA1: 4e93a149e5b68fa6945c7fd933c952b33feb7f67
+SHA256: 8453b8f4c2a584a26f3874f4e0188f169b70c8bb4e58eb4851ae67b3ee7b531d
+SHA512: ad21ea5b8ce8144338b036149ecf5e06bbfa91f00fa310b23dd83782b82c52f6e39b2df306a6e3e21f62b83ffeccea4c1b0a0dbd1fd92a7d6d97e70330f486a9
+Homepage: https://www.lighttpd.net/
+Description: MySQL-based modules for lighttpd
+ This package contains the following modules:
+  * mod_vhostdb_mysql: Database backend module for using MySQL as
+    a source for virtual host configuration using mod_vhostdb.
+ .
+ Do not depend on this package. Depend on the provided lighttpd-mod-*
+ packages instead.
+
+Package: lighttpd
+Architecture: amd64
+Version: 1.4.79.5.g82784f6f-20250405.062724732952384
+Priority: optional
+Section: httpd
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Installed-Size: 1035
+Provides: httpd, httpd-cgi, lighttpd-mod-accesslog, lighttpd-mod-ajp13, lighttpd-mod-auth, lighttpd-mod-authn-file, lighttpd-mod-cgi, lighttpd-mod-dirlisting, lighttpd-mod-extforward, lighttpd-mod-h2, lighttpd-mod-proxy, lighttpd-mod-rrdtool, lighttpd-mod-sockproxy, lighttpd-mod-ssi, lighttpd-mod-status, lighttpd-mod-userdir, lighttpd-mod-vhostdb, lighttpd-mod-wstunnel
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libnettle8t64, libpcre2-8-0 (>= 10.22), libxxhash0 (>= 0.6.5), media-types | mime-support, systemd-sysv
+Recommends: lighttpd-mod-deflate, lighttpd-mod-openssl
+Suggests: openssl, php-cgi, php-fpm (>= 2:7.4), spawn-fcgi, apache2-utils, lighttpd-doc, lighttpd-mod-webdav, lighttpd-modules-dbi, lighttpd-modules-lua
+Conflicts: lighttpd-mod-geoip, lighttpd-mod-trigger-b4-dl
+Filename: ./lighttpd_1.4.79.5.g82784f6f-20250405.062724732952384_amd64.deb
+Size: 368896
+MD5sum: 90351028b879ef6374265ef7beef43eb
+SHA1: ccc9627ae830d04b3f2e225d1bccbf9b7ba7f526
+SHA256: e2b8c92e55084c57f703da3fd7d28e36ed3989cb75a8e985778c3b21e49ced37
+SHA512: 64d0625d7e7ca1d32bcc87db1d74359d8c05ba826aa66e9731a1e2a36eee9ce25d5d2b86f7b589a3faccb931e7063d938e0356be1d0dd8bc50dc92913419c580
+Homepage: https://www.lighttpd.net/
+Description: fast webserver with minimal memory footprint
+ lighttpd is a small webserver and fast webserver developed with
+ security in mind and a lot of features.
+ It has support for
+   * CGI, FastCGI and SSI
+   * virtual hosts
+   * URL rewriting
+   * authentication (plain files, htpasswd, LDAP)
+   * transparent content compression
+   * conditional configuration
+   * HTTP proxying
+ and configuration is straight-forward and easy.
+
