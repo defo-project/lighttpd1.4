@@ -20,3 +20,7 @@ Restrictions: allow-stderr
 Tests: integration-tests
 Depends: lighttpd, lighttpd-mod-deflate, perl, gcc, libc-dev
 Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: curl -L 'https://github.com/defo-project/ech-dev-utils/archive/refs/heads/main.tar.gz' | tar xz; cd ech-dev-utils-main; PACKAGING=1 scripts/testlighttpd.sh
+Restrictions: needs-internet, needs-root, allow-stderr
+Depends: curl, ca-certificates, lighttpd-mod-openssl
