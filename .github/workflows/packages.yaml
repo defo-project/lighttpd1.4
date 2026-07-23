@@ -3,8 +3,8 @@ name: builder
 on:
   workflow_dispatch:
   push:
-  schedule:
-    - cron: '00 6 * * *'
+  #schedule:
+  #  - cron: '00 6 * * *'
 
 jobs:
   build:
