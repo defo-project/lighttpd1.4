@@ -37,7 +37,7 @@ jobs:
             --customize-hook='chroot "$1" update-ccache-symlinks' \
             testing "$HOME/.cache/sbuild/testing-amd64.tar"
 
-          autopkgtest-build-podman --init=systemd --release testing -t debian-testing --post-command="apt install -y ca-certificates"
+          autopkgtest-build-podman --init=systemd --release testing -t debian-testing --post-command="apt install -y ca-certificates libwolfssl-dev"
 
           ccache --zero-stats --max-size=10.0G
           chmod a+X "$HOME" "$HOME/.cache"
