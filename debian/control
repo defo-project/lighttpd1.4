@@ -13,11 +13,10 @@ Build-Depends:
  libmbedtls-dev (>= 2.14.0),
  libnss3-dev (>= 2:3.26.2),
  libssl-dev,
- libwolfssl-dev (>= 3.14.0~) [!hurd-any],
  zlib1g-dev,
  libbrotli-dev,
  libpcre2-dev,
- default-libmysqlclient-dev [!hurd-any],
+ libmariadb-dev [!hurd-any],
  libdbi-dev,
  libldap2-dev,
  liblua5.4-dev,
@@ -25,6 +24,7 @@ Build-Depends:
  pkgconf,
  libsqlite3-dev,
  libxml2-dev,
+ libcrypt-dev,
  libkrb5-dev [!hurd-any],
  libpam0g-dev,
  libpq-dev,
@@ -36,7 +36,7 @@ Build-Depends:
  perl:native,
 Vcs-Git: https://salsa.debian.org/debian/lighttpd.git
 Vcs-Browser: https://salsa.debian.org/debian/lighttpd
-Standards-Version: 4.7.2
+Standards-Version: 4.7.4
 Rules-Requires-Root: no
 
 Package: lighttpd
@@ -150,8 +150,8 @@ Description: LUA-based modules for lighttpd
  packages instead.
 
 Package: lighttpd-modules-mysql
-#Architecture: any !hurd-any
-Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
+#Architecture: !hurd-any
+Architecture: linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
@@ -191,8 +191,8 @@ Description: WebDAV module for lighttpd
   UNLOCK
 
 Package: lighttpd-mod-authn-gssapi
-#Architecture: any !hurd-any
-Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
+#Architecture: !hurd-any
+Architecture: linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
@@ -255,8 +255,8 @@ Description: PostgreSQL-based virtual host configuration module for lighttpd
  table instead of including it in the lighttpd configuration file.
 
 Package: lighttpd-mod-gnutls
-#Architecture: any !hurd-any
-Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
+#Architecture: !hurd-any
+Architecture: linux-any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
@@ -295,15 +295,3 @@ Depends:
 Description: TLS support using OpenSSL module for lighttpd
  This package contains the openssl module for lighttpd. With this module, it is
  possible serve https:// URLs.
-
-Package: lighttpd-mod-wolfssl
-#Architecture: any !hurd-any
-Architecture: amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32 linux-any
-Depends:
- ${misc:Depends},
- ${shlibs:Depends},
- lighttpd (= ${binary:Version}),
-Description: TLS support using wolfSSL module for lighttpd
- This package contains the wolfssl module for lighttpd. With this module,
- it is possible serve https:// URLs.  Aimed at embedded systems, wolfSSL
- uses less memory than OpenSSL, though is slightly slower than OpenSSL.
