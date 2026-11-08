@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-26.04
     steps:
-      - name: Check out the repo
+      - name: Check out the repo yeah
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
